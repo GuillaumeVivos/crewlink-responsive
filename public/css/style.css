@@ -1,0 +1,374 @@
+/*
+///////////////////////////////////////////////////////////
+	CUSTOMS ELEMENTS FOR EACH TEMPLATE PAGE 
+	'template/views...'
+///////////////////////////////////////////////////////////
+*/
+
+/* GALLERY.HTML 
+	IMG + CONTAINER
+*/
+#thumbContainer{
+	/*background-color: blue;*/
+}
+div.container-mini-img{
+  	background-color: lightgray;
+  	border : 1px solid #b8b8b8;
+  	/*CENTER *
+  	margin : 2px auto;  
+  	display : block;
+}
+div.container-mini-img  img {  
+	padding-top : 15px; 
+	/*CENTER*/
+  	margin : 0 auto;
+  	display : block;
+ }
+div.container-mini-img:last-child{
+	margin-bottom: 20px;
+}
+div.container-mini-img img{
+	margin-top:15px;
+}
+
+/* END GALLERY */
+
+
+
+
+
+
+/* INDEX.HTML  */
+div.container{
+	/*padding: 15px;*/
+	/*border : 1px solid yellow;*/
+	/*background-color: blue;*/
+}
+div.container img.img-responsive{
+	/*background-color: blue;
+	border : 1px solid red;*/
+}
+div.contentJumbotron{
+	/*background-image: url('../bgbanner.png');*/
+	background: linear-gradient(#626262 , #323232);
+	padding:20px;
+}
+div.content-container{
+	/*background-color: rgb(230,230,230);*/
+	/*background-image: url('../bgbanner.png');*/
+	/*background: linear-gradient(#626262 , #323232);*/
+	background-repeat: repeat-x;
+}
+div.form-apply{
+	padding: 15px;
+}
+/* JUMBOTRON home page */
+div.jumbotron{
+	padding : 0px;
+	background: none;
+}
+/*div.jumbotron > div.container > div.col-lg-3 > p ,
+ h5 > p,
+ h3 > p,
+ a > strong{
+	font-size: 12px ! important;
+}*/
+div.jumbotron > .container > .col-lg-9 > .container > img.img-responsive{
+	display : block;
+	margin: 0 auto;
+}
+/*END INDEX.HTML*/
+
+
+
+
+/*BLOCK "APPLY ONLINE GREEN" -> PERSISTENT 
+.
+.
+.
+.*/
+
+div#blockApply{
+	background: radial-gradient(rgb(205,200,0) , rgb(0,130,0));
+	border : none;
+	text-align: center;
+	color : white;
+	font-weight: bold ! important;
+	font-size : 20px;
+	padding : 10px;
+}
+div#blockApply a.btn{
+	font-size: 25px;
+}
+div#blockApply > p:first-child{
+	font-size : 30px;
+	color : #ff0039;
+}
+/*.
+.
+.
+.
+.END BLOCK "APPLY ONLINE" */
+
+
+
+
+
+/* CONTENT page INDEX AFTER JUMBOTRON */
+div.row{
+	padding : 0px 20px 0px 20px;
+}
+div.row-sideBar{
+	background: linear-gradient(rgba(192,192,192, .4) , rgba(240,240,240, 0.8));
+	border : 1px solid #b8b8b8; /* OKOKOKOKOK */
+	padding:10px;
+}
+div.row > div.col-lg-8 > h3{	
+	color :#003366;
+	font-weight:bold;
+}div.row > div.col-lg-8 > h3.italic{
+	font-style:italic;
+}
+div.row > div.col-lg-8 > h3.lightBlue{
+	color : #00adee;
+	font-size: 18px;
+}
+div.row > div.col-lg-8 > p {
+	/*margin:5px;*/
+	font-size: 11px;
+}
+/* END --- CONTENT page INDEX AFTER JUMBOTRON */
+
+
+/* VACANCY.HTML ----  */
+div.container div.mainTitle h2{
+	color :#003366;
+	font-size: 35px;
+	font-weight: bold;
+}
+div.container div.vacancy h3{
+	color :#003366;
+	font-size: 25px;
+	font-weight: bold;
+}
+div.container div.vacancy h4{
+	color :#003366;
+	font-size: 15px;
+}
+/* END --- VACANCY.HTML ----  */
+
+
+/* ************ Slideshow Animate ************ */
+
+.slide.ng-hide-add,
+.slide.ng-hide-remove {
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  display: block!important;
+}
+.slide.ng-hide-add.ng-hide-add-active,
+.slide.ng-hide-remove {
+  opacity: 0;
+}
+.slide.ng-hide-add,
+.slide.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+}
+.slide{ position:absolute; float:left; width:100%; height:250px; }
+.slide img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 15px #999;
+}
+/*
+.slide div.title-slideshow {
+	position: relative;
+	background-color: white;
+}*/
+div.lili{
+	float:left;
+	margin-left: 5px;
+	display : inline;
+	background-color: red;
+	opacity: 0.6;
+	/*border:1px solid black;*/
+	/*padding:0px;
+	margin:0px;*/
+	border-radius: 7px 7px 7px 7px;
+	position:relative;
+	width : 15px;
+	height: 15px;
+}
+div.btnSlideshow{
+	position: absolute;
+	/*margin-top: -30px;*/
+}
+
+.slide img{
+	width:100%;
+	height:250px;
+}
+div.monContainer{
+	position: relative;
+	/*height: 100%;*/
+	margin-bottom: 200px;
+}
+
+
+/* ************ End Slideshow ************ */
+
+
+/*
+///////////////////////////////////////////////////////////
+	END CUSTOMS ELEMENTS FOR EACH TEMPLATE PAGE 
+///////////////////////////////////////////////////////////
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+* ////////////////////////////////////////////////////////////
+* GENERAL CSS 
+* - define for commons elements 
+	- header
+	- title for pages 
+	- sideBar (testimonials, advert...)
+	- footer
+* ////////////////////////////////////////////////////////////
+*/
+/* 
+HEADER MENU  -----------------------------------------------//
+*/
+
+/* PARAMS LOGOTYPE  */
+h1.crewlink-logo-main { 
+	background-image: url("http://www.crewlink.ie/design/images/logo.png"); 
+	width : 325px;
+	height: 96px; 
+}
+div#header-container{ padding: 10px;}
+
+/* DISPLAY NONE LOGOTYPE RESPONSIVE */
+@media (max-width: 700px) {
+  h1.crewlink-logo-main {
+    display: none;
+  }
+  div.logoCL a img.logo{
+  	/*width : 300px;
+  	background-color: red;*/
+  }
+}
+/* END PARAMS LOGOTYPE  */
+
+
+/* HEADER MENU ITEMS*/
+div#header-container  a.mainItem, div.masthead  a.mainItem {
+	color : white ! important;
+}
+div#header-container  a.mainItem:hover, div.masthead  a.mainItem:hover {
+	color : #003366 ! important;
+}
+/* END HEADER MENU ITEMS*/
+
+hr.topnavbar{
+	/**/
+	
+}
+div.navbar{
+	background-image: url('../bgbody.png');
+	background: linear-gradient( #00568a, #013867);
+	margin-bottom: 0px;
+}
+li.dropdown.open  a.mainItem, div#header-container ul li.dropdown.open a.mainItem  {
+	color : #003366 ! important;
+}
+/*
+END HEADER MENU --------------------------------------------//
+*/
+
+
+
+
+
+
+
+/* Main Title text  */
+div.mainTitle h2{
+	color :#003366;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+
+
+/* SIDEBAR -------------------------------------------------//
+ */
+
+div.row-sideBar > h3 {
+	color : #00adee;
+	font-size: 18px
+}
+div.row-sideBar {
+	margin-bottom: 25px;
+
+}
+div.row-sideBar:nth-child(2) > p {
+	font-style: italic;
+}
+
+/* END - SIDEBAR -------------------------------------------//
+ */
+
+
+
+/*
+ FOOTER  ---------------------------------------------------//
+*/
+
+div#footer{
+	background-color: grey;
+	background: linear-gradient(#626262 , #323232);
+	/*background-image: url('../bgfooter.png');*/
+	margin-top:10px;
+	padding: 10px;
+}
+div#footer > div.container {
+	color: white;
+} 
+div.footer-container{
+	/*border:0.2px solid black;*/
+	/*padding: 10px;*/
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+hr.hr-2{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);	
+}
+/*
+END FOOTER -------------------------------------------------//
+*/
+
+
+/*
+* ////////////////////////////////////////////////////////////
+* END GENERAL
+* ////////////////////////////////////////////////////////////
+*/

@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="col-lg-8">
+    <div class="vacancy mainTitle">
+      <h2>Recruitment Days</h2>
+
+      <hr/>
+
+      <h3>Find out when and where we will be Recruiting</h3>
+
+      <h4>Please select the City and the Date that suit you best</h4>
+    </div>
+
+  	<div ng-controller="vacancyController" ng-init="getVacancies()">
+  		<table class="table table-hover" >
+  			<tr>
+  				<th>City</th>
+  				<th>Date</th>
+  				<th><span></span></th>
+  			</tr>
+  			<tr ng-repeat="vacancy in vacancies">
+  				<td ng-bind="vacancy.location"></td>
+  				<td ng-bind="vacancy.closingDate"></td>
+  				<td><a href="/">Find out more information</a></td>
+  			</tr>
+  		</table>
+  	</div>
+  </div>
+
+  <div class="col-lg-4">
+      <advert-sidebar></advert-sidebar>
+      <testimonial-sidebar></testimonial-sidebar>     
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

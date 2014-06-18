@@ -1,0 +1,25 @@
+{>"layouts/master" /}
+
+<directive-one></directive-one>
+
+{<body}
+
+<!-- Header Menu -->
+	<header-menu></header-menu>
+<!-- END Header -->
+
+
+
+	<div ng-view="view"></div>
+
+
+
+<!-- Footer -->
+	<footer-menu></footer-menu>	  
+
+<!-- </div> -->
+<!-- /END footer -->
+
+
+
+{/body}

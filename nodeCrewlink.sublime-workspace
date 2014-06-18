@@ -1,0 +1,800 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"template",
+				"templateUrl"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"responsive",
+				"img-responsive"
+			],
+			[
+				"bloc",
+				"blockApply"
+			],
+			[
+				"thu",
+				"thumbContainer"
+			],
+			[
+				"elem",
+				"elemIndex"
+			],
+			[
+				"apply",
+				"applyController"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"col",
+				"col-lg-3"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"re",
+				"repeat-y"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"templa",
+				"templateUrl"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"pare",
+				"parentDom"
+			],
+			[
+				"docume",
+				"document"
+			],
+			[
+				"router",
+				"routerApp"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"var",
+				"varRet"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"d3",
+				"d3Container"
+			],
+			[
+				"c",
+				"class"
+			],
+			[
+				"script",
+				"script	Tag"
+			],
+			[
+				"logPos",
+				"logPost"
+			],
+			[
+				"postF",
+				"postFactory"
+			],
+			[
+				"post",
+				"postFactory"
+			],
+			[
+				"sr",
+				"src"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"str",
+				"strong	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/templates/views/index.html",
+			"settings":
+			{
+				"buffer_size": 1856,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/app.js",
+			"settings":
+			{
+				"buffer_size": 1915,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/app/crewlink.js",
+			"settings":
+			{
+				"buffer_size": 6017,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/templates/views/gallery.html",
+			"settings":
+			{
+				"buffer_size": 1836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/style.css",
+			"settings":
+			{
+				"buffer_size": 6659,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/app/directives/module.js",
+			"settings":
+			{
+				"buffer_size": 382,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/app/controllers/vacancyController.js",
+			"settings":
+			{
+				"buffer_size": 674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/templates/views/apply.html",
+			"settings":
+			{
+				"buffer_size": 4553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/templates/views/vacancy.html",
+			"settings":
+			{
+				"buffer_size": 872,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/templates/views/elements/sidebar.html",
+			"settings":
+			{
+				"buffer_size": 1299,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/templates/views/elements/slideshow.html",
+			"settings":
+			{
+				"buffer_size": 1428,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/templates/views/elements/testimonial.html",
+			"settings":
+			{
+				"buffer_size": 836,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/nodeCrewlink.sublime-project",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/app/controllers/applyController.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/app/controllers/slideshowController.js",
+		"/C/xampp/htdocs/angular_js.chrisApp/public/js/config.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/vacancy.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/index.html",
+		"/C/xampp/htdocs/angular_js.chrisApp/public/js/App/activityTracker.js",
+		"/C/xampp/htdocs/angular_js.chrisApp/index.js",
+		"/C/xampp/htdocs/angular_js.chrisApp/public/js/App/controllers/activityController.js",
+		"/C/xampp/htdocs/angular_js.chrisApp/public/js/App/controllers/rewardController.js",
+		"/C/xampp/htdocs/angular_js.chrisApp/public/js/App/directives/loader.js",
+		"/C/xampp/htdocs/angular_js.chrisApp/public/js/App/services/activityService.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/css/style.css",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/gallery.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/elements/testimonial.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/elements/content-index.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/slideshow.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/mySubNav.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/elements/header.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/app/controllers/vacancyController.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/app.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/index.dust",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/layouts/master.dust",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/mySubNav.hmtl",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/test.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/elements/footer.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/guigui.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/views/apply.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/index.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/controllers/index.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/layouts/header2.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/app/factories/vacancyFactory.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/lib/slideshow/js/bjqs-1.3.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/lib/angularRoute.min.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/js/lib/angular-route.min.js.map",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/layouts/header.dust",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/layouts/header.html",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/header.dust",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/templates/header.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/.build/components/requirejs/require.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/node_modules/express/node_modules/connect/lib/middleware/bodyParser.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/tasks/dustjs.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/models/index.js",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/node_modules/dustjs-linkedin/bin/dustc",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/node_modules/dustjs-linkedin/bower.json",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/node_modules/dustjs-linkedin/package.json",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/config/middleware.json",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/package.json",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/node_modules/dustjs-helpers/package.json",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/config/app.json",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/public/components/dustjs-linkedin/.bower.json",
+		"/C/xampp/htdocs/nodeCrewlink/nodeCrewlink/SampleApp/node_modules/dustjs-helpers/lib/dust-helpers.js",
+		"/C/xampp/htdocs/angular_js/vivos/index.html",
+		"/C/xampp/htdocs/maps/index.html",
+		"/C/xampp/htdocs/maps/indexGoogle.html",
+		"/C/xampp/htdocs/maps/index - Copie.html",
+		"/C/xampp/htdocs/angular_js/angular.min.js",
+		"/C/xampp/htdocs/angular_js/angularD3/index.html",
+		"/C/xampp/htdocs/angular_js/index.html",
+		"/C/xampp/htdocs/angular_js/partials/animation.html",
+		"/C/xampp/htdocs/angular_js/partials/calcul.html",
+		"/C/xampp/htdocs/angular_js/partials/home.html",
+		"/C/xampp/htdocs/angular_js/partials/comments.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp\\htdocs\\nodeCrewlink\\nodeCrewlink\\SampleApp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"realtive",
+			"loader",
+			"rootScope",
+			"loader",
+			"rootScope",
+			"text-center",
+			".container",
+			"bootstrap.min.js",
+			"border",
+			"border:",
+			"gray",
+			"dust.register(",
+			"left",
+			"partial(\"body\"",
+			"dust.register",
+			"href",
+			"1s",
+			"name",
+			"directivename1",
+			"myCssVar",
+			"from Navbar",
+			"Connexion",
+			"postsCtrl",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/templates/views/index.html",
+					"settings":
+					{
+						"buffer_size": 1856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								448,
+								448
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/app.js",
+					"settings":
+					{
+						"buffer_size": 1915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/js/app/crewlink.js",
+					"settings":
+					{
+						"buffer_size": 6017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3314,
+								3314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 118.0,
+						"translation.y": 2016.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/templates/views/gallery.html",
+					"settings":
+					{
+						"buffer_size": 1836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1522,
+								1522
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 744.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/css/style.css",
+					"settings":
+					{
+						"buffer_size": 6659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3569,
+								3569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4588.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/js/app/directives/module.js",
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/js/app/controllers/vacancyController.js",
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								364,
+								364
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/templates/views/apply.html",
+					"settings":
+					{
+						"buffer_size": 4553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								382,
+								382
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1656.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/templates/views/vacancy.html",
+					"settings":
+					{
+						"buffer_size": 872,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								391,
+								391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/templates/views/elements/sidebar.html",
+					"settings":
+					{
+						"buffer_size": 1299,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/templates/views/elements/slideshow.html",
+					"settings":
+					{
+						"buffer_size": 1428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								945,
+								945
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public/templates/views/elements/testimonial.html",
+					"settings":
+					{
+						"buffer_size": 836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/xampp/htdocs/angular_js.chrisApp/chrisAngularProject.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 137.0,
+	"status_bar_visible": true
+}

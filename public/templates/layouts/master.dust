@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8" />
+	    <title>{+title /}</title>
+	    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+	    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/cosmo/bootstrap.min.css"/>
+	    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"/>
+	    <link rel="stylesheet" href="/css/app.css" />
+	    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+
+	    
+		<link type="text/css" rel="Stylesheet" href="../js/lib/slideshow/bjqs.css" />
+
+	</head>
+	<body>
+		<div id="wrapper">
+		    {+body /}
+		</div>
+	<script data-main="/js/app.js" src="/components/requirejs/require.js"></script>
+	<!--<script type="text/javascript" src="/templates/layouts/header2.js"></script>
+-->
+
+	<!--<script src="../js/lib/slideshow/js/bjqs-1.3.min.js"></script>
+-->
+
+	</body>
+</html>

@@ -5,7 +5,7 @@
 		[
 			[
 				"margin",
-				"margin-top"
+				"margin-bottom"
 			],
 			[
 				"back",
@@ -175,7 +175,7 @@
 			"file": "public/js/app/crewlink.js",
 			"settings":
 			{
-				"buffer_size": 6017,
+				"buffer_size": 6002,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,7 +183,7 @@
 			"file": "public/templates/views/gallery.html",
 			"settings":
 			{
-				"buffer_size": 1836,
+				"buffer_size": 2061,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +191,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 6659,
+				"buffer_size": 6766,
 				"line_ending": "Windows"
 			}
 		},
@@ -239,7 +239,7 @@
 			"file": "public/templates/views/elements/slideshow.html",
 			"settings":
 			{
-				"buffer_size": 1428,
+				"buffer_size": 673,
 				"line_ending": "Windows"
 			}
 		},
@@ -398,7 +398,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -441,8 +441,8 @@
 						"selection":
 						[
 							[
-								699,
-								699
+								346,
+								346
 							]
 						],
 						"settings":
@@ -451,7 +451,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
+						"translation.x": 78.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -462,15 +462,15 @@
 					"file": "public/js/app/crewlink.js",
 					"settings":
 					{
-						"buffer_size": 6017,
+						"buffer_size": 6002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3314,
-								3314
+								4104,
+								4104
 							]
 						],
 						"settings":
@@ -478,8 +478,8 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 118.0,
-						"translation.y": 2016.0,
+						"translation.x": 0.0,
+						"translation.y": 521.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -489,15 +489,15 @@
 					"file": "public/templates/views/gallery.html",
 					"settings":
 					{
-						"buffer_size": 1836,
+						"buffer_size": 2061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1522,
-								1522
+								417,
+								417
 							]
 						],
 						"settings":
@@ -507,7 +507,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 744.0,
+						"translation.y": 336.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -517,15 +517,15 @@
 					"file": "public/css/style.css",
 					"settings":
 					{
-						"buffer_size": 6659,
+						"buffer_size": 6766,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3569,
-								3569
+								3814,
+								3814
 							]
 						],
 						"settings":
@@ -533,7 +533,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4588.0,
+						"translation.y": 4652.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -605,8 +605,8 @@
 						"selection":
 						[
 							[
-								382,
-								382
+								81,
+								81
 							]
 						],
 						"settings":
@@ -616,7 +616,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1656.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -661,8 +661,8 @@
 						"selection":
 						[
 							[
-								126,
-								126
+								94,
+								53
 							]
 						],
 						"settings":
@@ -682,15 +682,15 @@
 					"file": "public/templates/views/elements/slideshow.html",
 					"settings":
 					{
-						"buffer_size": 1428,
+						"buffer_size": 673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								945,
-								945
+								258,
+								258
 							]
 						],
 						"settings":
@@ -699,7 +699,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -716,8 +716,8 @@
 						"selection":
 						[
 							[
-								81,
-								81
+								239,
+								239
 							]
 						],
 						"settings":
@@ -795,6 +795,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 137.0,
+	"side_bar_width": 125.0,
 	"status_bar_visible": true
 }

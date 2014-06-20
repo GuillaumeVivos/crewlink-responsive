@@ -88,22 +88,25 @@ define(
 				restrict: 'AE',
 				// replace: true,
 				scope: {
-					images: '=',					
+					images: '=',
+									
 				},
 				link: function (scope, elem, attrs){ 
-					var timer;
-					var sliderFunc = function(){
-						timer = $timeout(function(){
-							scope.next();
-							timer = $timeout(sliderFunc, 2500);
-						}, 2500);
-					}
-					// timer to change pictures
-					//sliderFunc();
-					scope.$on('$destroy' , function(){
-						$timeout.cancel(timer);
-					});
 
+					if(attrs.timer == 'true'){
+						var timer;
+						var sliderFunc = function(){
+							timer = $timeout(function(){
+								scope.next();
+								timer = $timeout(sliderFunc, 2500);
+							}, 2500);
+						}
+						// timer to change pictures
+						//sliderFunc();
+						scope.$on('$destroy' , function(){
+							$timeout.cancel(timer);
+						});
+					}
 
 					scope.currentIndex = 0; // Initially the index is at the first image 
 					scope.next = function() {
@@ -120,9 +123,7 @@ define(
 						//scope.currentIndex = newIndex;
 						scope.currentIndex = newIndex - 1;
 					};
-					// scope.allo = function(testt) {
-					// 	alert('allo')
-					// }
+
 					scope.$watch('currentIndex', function() {						
 						scope.images.forEach(function(image) {
 							image.visible = false; // make every image invisible
@@ -133,7 +134,7 @@ define(
 				templateUrl: 'templates/views/elements/slideshow.html'
 			}
 		}).controller('slideshowController' , function($scope){
-			/* **** 	DEFINE PARAMS IMG FOR SLIDSHOW 	**** */
+			/* **** 	DEFINE PARAMS IMG FOR SLIDESHOW 	**** */
 			//$scope.myvar = "totot";
 			$scope.images = [{
 					index: 1,

@@ -8,19 +8,10 @@
 /* GALLERY.HTML 
 	IMG + CONTAINER
 */
-#thumbContainer{
-	/*background-color: blue;*/
-}
+
 div.container-mini-img{
   	background-color: lightgray;
   	border : 1px solid #b8b8b8;
-  	/*CENTER *
-  	margin : 2px auto;  
-  	display : block;
-}
-div.container-mini-img  img {  
-	padding-top : 15px; 
-	/*CENTER*/
   	margin : 0 auto;
   	display : block;
  }
@@ -39,24 +30,11 @@ div.container-mini-img img{
 
 
 /* INDEX.HTML  */
-div.container{
-	/*padding: 15px;*/
-	/*border : 1px solid yellow;*/
-	/*background-color: blue;*/
-}
-div.container img.img-responsive{
-	/*background-color: blue;
-	border : 1px solid red;*/
-}
 div.contentJumbotron{
-	/*background-image: url('../bgbanner.png');*/
 	background: linear-gradient(#626262 , #323232);
 	padding:20px;
 }
 div.content-container{
-	/*background-color: rgb(230,230,230);*/
-	/*background-image: url('../bgbanner.png');*/
-	/*background: linear-gradient(#626262 , #323232);*/
 	background-repeat: repeat-x;
 }
 div.form-apply{
@@ -67,12 +45,6 @@ div.jumbotron{
 	padding : 0px;
 	background: none;
 }
-/*div.jumbotron > div.container > div.col-lg-3 > p ,
- h5 > p,
- h3 > p,
- a > strong{
-	font-size: 12px ! important;
-}*/
 div.jumbotron > .container > .col-lg-9 > .container > img.img-responsive{
 	display : block;
 	margin: 0 auto;
@@ -83,8 +55,6 @@ div.jumbotron > .container > .col-lg-9 > .container > img.img-responsive{
 
 
 /*BLOCK "APPLY ONLINE GREEN" -> PERSISTENT 
-.
-.
 .
 .*/
 
@@ -105,8 +75,6 @@ div#blockApply > p:first-child{
 	color : #ff0039;
 }
 /*.
-.
-.
 .
 .END BLOCK "APPLY ONLINE" */
 
@@ -134,7 +102,6 @@ div.row > div.col-lg-8 > h3.lightBlue{
 	font-size: 18px;
 }
 div.row > div.col-lg-8 > p {
-	/*margin:5px;*/
 	font-size: 11px;
 }
 /* END --- CONTENT page INDEX AFTER JUMBOTRON */
@@ -183,20 +150,12 @@ div.container div.vacancy h4{
   left: 0;
   box-shadow: 0px 0px 15px #999;
 }
-/*
-.slide div.title-slideshow {
-	position: relative;
-	background-color: white;
-}*/
 div.lili{
 	float:left;
 	margin-left: 5px;
 	display : inline;
 	background-color: red;
 	opacity: 0.6;
-	/*border:1px solid black;*/
-	/*padding:0px;
-	margin:0px;*/
 	border-radius: 7px 7px 7px 7px;
 	position:relative;
 	width : 15px;
@@ -204,7 +163,6 @@ div.lili{
 }
 div.btnSlideshow{
 	position: absolute;
-	/*margin-top: -30px;*/
 }
 
 .slide img{
@@ -213,7 +171,6 @@ div.btnSlideshow{
 }
 div.monContainer{
 	position: relative;
-	/*height: 100%;*/
 	margin-bottom: 200px;
 }
 
@@ -262,10 +219,6 @@ div#header-container{ padding: 10px;}
 @media (max-width: 700px) {
   h1.crewlink-logo-main {
     display: none;
-  }
-  div.logoCL a img.logo{
-  	/*width : 300px;
-  	background-color: red;*/
   }
 }
 /* END PARAMS LOGOTYPE  */
@@ -339,17 +292,12 @@ div.row-sideBar:nth-child(2) > p {
 div#footer{
 	background-color: grey;
 	background: linear-gradient(#626262 , #323232);
-	/*background-image: url('../bgfooter.png');*/
 	margin-top:10px;
 	padding: 10px;
 }
 div#footer > div.container {
 	color: white;
 } 
-div.footer-container{
-	/*border:0.2px solid black;*/
-	/*padding: 10px;*/
-}
 hr{
     border: 0;
     height: 0;

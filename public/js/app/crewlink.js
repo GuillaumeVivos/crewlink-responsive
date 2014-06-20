@@ -1,33 +1,3 @@
-// define(
-// 	['angular', 'angularRoute', 'vacancyController' , 'module'],
-// 	function(angular) {
-// 		return angular.module('crewlink', ['ngRoute', 'controller.vacancy' , 'directivePath.module']).
-// 			config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
-// 				$routeProvider.when('/', {
-// 					templateUrl: '/templates/views/index.html',
-// 				}).when('/apply', {
-// 					templateUrl: '/templates/views/apply.html',
-// 				}).when('/gallery', {
-// 					templateUrl: '/templates/views/gallery.html',
-// 				}).when('/vacancies', {
-// 					templateUrl: '/templates/views/vacancy.html',
-// 					controller: 'vacancyController'
-// 				}).when('/guigui', {
-// 					// template Test ...
-// 					templateUrl: '/templates/views/guigui.html',					
-// 				}).when('/subnav' , {
-// 					templateUrl: '/templates/views/mySubNav.html',	
-// 				}).otherwise({
-// 					redirectTo: '/'
-// 				});
-// 				//Removes '#' from urls
-//                 $locationProvider.html5Mode(true);
-// 			}
-// 		]);
-
-// 	}
-// );
-
 
 
 // ****************** SAVE DIRECTIVES 02 ********************** //
@@ -93,7 +63,7 @@ define(
 				},
 				link: function (scope, elem, attrs){ 
 
-					if(attrs.timer == 'true'){
+					
 						var timer;
 						var sliderFunc = function(){
 							timer = $timeout(function(){
@@ -101,26 +71,25 @@ define(
 								timer = $timeout(sliderFunc, 2500);
 							}, 2500);
 						}
-						// timer to change pictures
-						//sliderFunc();
+						// timer to change pictures, uncomment to init the timer
+						// sliderFunc();
 						scope.$on('$destroy' , function(){
 							$timeout.cancel(timer);
 						});
-					}
+					
 
 					scope.currentIndex = 0; // Initially the index is at the first image 
+
+					/* Next() & Prev() function : go to next or prev pictures in slideshow */
 					scope.next = function() {
-					//console.log(scope.currentIndex)
 					  scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
 					};					 
 					scope.prev = function() {
 					  scope.currentIndex > 0 ? scope.currentIndex-- : scope.currentIndex = scope.images.length - 1;				  
 					};
-					//var newIndex;
+
 					scope.clickToImg = function(newIndex) {
-						//console.log(scope.currentIndex +  ' <    curindex   /// index    >   ' +  newIndex );
-						// alert(newIndex);
-						//scope.currentIndex = newIndex;
+						// Click on BTN to change current picture  
 						scope.currentIndex = newIndex - 1;
 					};
 
@@ -135,7 +104,7 @@ define(
 			}
 		}).controller('slideshowController' , function($scope){
 			/* **** 	DEFINE PARAMS IMG FOR SLIDESHOW 	**** */
-			//$scope.myvar = "totot";
+			
 			$scope.images = [{
 					index: 1,
 					src: 'images/images____02.png',

@@ -1,40 +1,19 @@
-
-      <!-- END HEADER -->
-
-    <!-- <div ng-controller="slideshowController">
-       <slide-show images="images"></slide-show>
-    </div> -->
-
       <div class="container">
-<!-- <h1>OKOKOKOKOKOKOKOKKOKOKOKOKOKO</h1> 
-        <div ng-app="crewlink">
-          <div ng-controller="testCtrl">
-            <li ng-repeat="data in mydata">
-              {{data.name}}
-            </li>
-          </div>
-        </div> -->
-
         <div class="row marketing">
           <div class="gallery mainTitle">
             <h2>Training Center Gallery</h2>
           </div>
-           <!-- <h1 class="blog-title">Training Centre Gallery</h1> -->
 
           <script>
-           $(document).ready(function(){
-            
-            var eleme = "<div class='container-mini-img col-lg-3 col-md-4 col-xs-6 thumb'> "+
-                      "<img class='img-responsive' src='http://www.crewlink.ie/uploads/banners/thumb_training_centre_001.jpg' /> <h4>Training Center </h4>" +
-                      "</div> " ; 
+          // generate many pictures for gallery
+           $(document).ready(function(){            
+              var eleme = "<div class='container-mini-img col-lg-3 col-md-4 col-xs-6 thumb'> "+
+                        "<img class='img-responsive' src='http://www.crewlink.ie/uploads/banners/thumb_training_centre_001.jpg' /> <h4>Training Center </h4>" +
+                        "</div> " ; 
 
-            for (var i = 0 ; i < 25 ; i ++){
-                                
-                 // $(".col-lg-8 > div").append(eleme);
-                 $("#thumbContainer").append(eleme);
-                 
-            }
-
+              for (var i = 0 ; i < 25 ; i ++){
+                   $("#thumbContainer").append(eleme);                 
+              }
             })
           </script>
           <!-- CONTAINER THUMB IMG MINI -->
@@ -46,25 +25,14 @@
           <!-- SIDEBAR -->
           <div class="col-lg-4 col-md-4 col-xs-12">
 
-<!--          <div class="row-sideBar">
- -->            <div ng-controller="slideshowController">
-               <slide-show images="images" ></slide-show>
-            </div>
-         <!-- </div> -->
-         
-            <advert-sidebar></advert-sidebar>         
-         
-            <testimonial-sidebar></testimonial-sidebar>
-         
-
-
+            <!-- Include components -->
             <div ng-controller="slideshowController">
-               <slide-show images="images"></slide-show>
-            </div>
-
-
-          </div>
-          
+               <slide-show images="images" ></slide-show>
+            </div>         
+            <advert-sidebar></advert-sidebar>         
+            <testimonial-sidebar></testimonial-sidebar>
+        
+          </div>          
         </div>
       </div> 
     

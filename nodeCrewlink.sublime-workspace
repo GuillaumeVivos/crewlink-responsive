@@ -167,15 +167,18 @@
 			"file": "public/js/app.js",
 			"settings":
 			{
-				"buffer_size": 1915,
+				"buffer_size": 966,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "\n\n// ****************** SAVE DIRECTIVES 02 ********************** //\ndefine(\n	['angular', 'angularRoute', 'angularAnimate', 'vacancyController'],\n	function(angular) {\n		return angular.module('crewlink', ['ngRoute',  'ngAnimate' , 'controller.vacancy' ]).\n			config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {\n				$routeProvider.when('/', {\n					templateUrl: '/templates/views/index.html',\n				}).when('/apply', {\n					templateUrl: '/templates/views/apply.html',\n				}).when('/gallery', {\n					templateUrl: '/templates/views/gallery.html'\n				}).when('/vacancies', {\n					templateUrl: '/templates/views/vacancy.html',\n					controller: 'vacancyController'\n				}).when('/guigui', {\n					// template Test ...\n					templateUrl: '/templates/views/guigui.html',					\n				}).when('/subnav' , {\n					templateUrl: '/templates/views/mySubNav.html',	\n				}).otherwise({\n					redirectTo: '/'\n				});\n\n				//Removes '#' from urls\n                $locationProvider.html5Mode(true);\n\n			}\n		]).directive('headerMenu' , function(){\n			return {\n		        restrict: 'E',\n		        scope: false,\n		        templateUrl: 'templates/views/elements/header.html'\n	      	}\n		}).directive('footerMenu' , function(){\n			return {\n		        restrict: 'E',\n		        scope: false,\n		        templateUrl: 'templates/views/elements/footer.html'\n	      	}\n		}).directive('advertSidebar' , function(){\n			return {\n		        restrict: 'E',\n		        scope: false,\n		        templateUrl: 'templates/views/elements/adapply.html'\n	      	}\n		}).directive('testimonialSidebar' , function(){\n			return {\n		        restrict: 'E',\n		        scope: false,\n		        templateUrl: 'templates/views/elements/testimonial.html'\n	      	}\n		}).directive('slideShow' , function($timeout){\n			/* **** 	CREATE SLIDESHOW	 **** */\n			return {\n				restrict: 'AE',\n				// replace: true,\n				scope: {\n					images: '=',\n									\n				},\n				link: function (scope, elem, attrs){ \n\n					\n						var timer;\n						var sliderFunc = function(){\n							timer = $timeout(function(){\n								scope.next();\n								timer = $timeout(sliderFunc, 2500);\n							}, 2500);\n						}\n						// timer to change pictures, uncomment to init the timer\n						// sliderFunc();\n						scope.$on('$destroy' , function(){\n							$timeout.cancel(timer);\n						});\n					\n\n					scope.currentIndex = 0; // Initially the index is at the first image \n\n					/* Next() & Prev() function : go to next or prev pictures in slideshow */\n					scope.next = function() {\n					  scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;\n					};					 \n					scope.prev = function() {\n					  scope.currentIndex > 0 ? scope.currentIndex-- : scope.currentIndex = scope.images.length - 1;				  \n					};\n\n					scope.clickToImg = function(newIndex) {\n						// Click on BTN to change current picture  \n						scope.currentIndex = newIndex - 1;\n					};\n					scope.$watch('currentIndex', function() {						\n						scope.images.forEach(function(image) {\n							image.visible = false; // make every image invisible\n						});\n						scope.images[scope.currentIndex].visible = true; // make the current image visible\n					});\n				},\n				templateUrl: 'templates/views/elements/slideshow.html'\n			}\n		}).controller('slideshowController' , function($scope){\n			/* **** 	DEFINE PARAMS IMG FOR SLIDESHOW 	**** */\n			\n			$scope.images = [{\n					index: 1,\n					src: 'images/images____02.png',\n					title: 'Pic 1'\n				}, {\n					index: 2,\n					src: 'images/images____03.png',\n					title: 'Pic 2'\n				}, {\n					index: 3,\n					src: 'images/images____07.png',\n					title: 'Pic 3'\n				}, {\n					index: 4,\n					src: 'images/images____05.png',\n					title: 'Pic 4'\n				}, {\n					index: 5,\n					src: 'images/images____06.png',\n					title: 'Pic 5'\n				}];\n			});\n	}\n);\n\n\n\n\n\n\n\n\n\n// ************ SAVE ORIGINAL CODE 01 *************** //\n\n// define(\n// 	['angular', 'angularRoute', 'vacancyController' , 'applyController'],\n// 	function(angular) {\n// 		return angular.module('crewlink', ['ngRoute', 'controller.vacancy' , 'controller.apply']).\n// 			config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {\n// 				$routeProvider.when('/', {\n// 					templateUrl: '/templates/views/index.html',\n// 				}).when('/apply', {\n// 					templateUrl: '/templates/views/apply.html'\n// 					controller: 'applyController'\n// 				}).when('/gallery', {\n// 					templateUrl: '/templates/views/gallery.html'\n// 				}).when('/vacancies', {\n// 					templateUrl: '/templates/views/vacancy.html',\n// 					controller: 'vacancyController'\n// 				}).when('/guigui', {\n// 					templateUrl: '/templates/views/guigui.html',					\n// 				}).otherwise({\n// 					redirectTo: '/'\n// 				});\n\n// 				//Removes '#' from urls\n//                 $locationProvider.html5Mode(true);\n// 			}\n// 		]);\n// 	}\n// );\n\n",
 			"file": "public/js/app/crewlink.js",
+			"file_size": 4847,
+			"file_write_time": 130477379081462236,
 			"settings":
 			{
-				"buffer_size": 6002,
+				"buffer_size": 4846,
 				"line_ending": "Unix"
 			}
 		},
@@ -183,7 +186,7 @@
 			"file": "public/templates/views/gallery.html",
 			"settings":
 			{
-				"buffer_size": 2061,
+				"buffer_size": 1393,
 				"line_ending": "Unix"
 			}
 		},
@@ -191,7 +194,7 @@
 			"file": "public/css/style.css",
 			"settings":
 			{
-				"buffer_size": 6766,
+				"buffer_size": 5689,
 				"line_ending": "Windows"
 			}
 		},
@@ -215,7 +218,7 @@
 			"file": "public/templates/views/apply.html",
 			"settings":
 			{
-				"buffer_size": 4553,
+				"buffer_size": 3494,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,7 +226,7 @@
 			"file": "public/templates/views/vacancy.html",
 			"settings":
 			{
-				"buffer_size": 872,
+				"buffer_size": 840,
 				"line_ending": "Unix"
 			}
 		},
@@ -231,7 +234,7 @@
 			"file": "public/templates/views/elements/sidebar.html",
 			"settings":
 			{
-				"buffer_size": 1299,
+				"buffer_size": 1187,
 				"line_ending": "Windows"
 			}
 		},
@@ -239,7 +242,7 @@
 			"file": "public/templates/views/elements/slideshow.html",
 			"settings":
 			{
-				"buffer_size": 673,
+				"buffer_size": 611,
 				"line_ending": "Windows"
 			}
 		},
@@ -247,7 +250,7 @@
 			"file": "public/templates/views/elements/testimonial.html",
 			"settings":
 			{
-				"buffer_size": 836,
+				"buffer_size": 679,
 				"line_ending": "Windows"
 			}
 		}
@@ -398,7 +401,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -413,8 +416,8 @@
 						"selection":
 						[
 							[
-								448,
-								448
+								59,
+								59
 							]
 						],
 						"settings":
@@ -424,7 +427,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 924.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -434,15 +437,15 @@
 					"file": "public/js/app.js",
 					"settings":
 					{
-						"buffer_size": 1915,
+						"buffer_size": 966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								346,
-								346
+								966,
+								966
 							]
 						],
 						"settings":
@@ -451,8 +454,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 78.0,
-						"translation.y": 0.0,
+						"translation.x": 0.0,
+						"translation.y": 723.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -462,15 +465,15 @@
 					"file": "public/js/app/crewlink.js",
 					"settings":
 					{
-						"buffer_size": 6002,
+						"buffer_size": 4846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4104,
-								4104
+								412,
+								417
 							]
 						],
 						"settings":
@@ -479,7 +482,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 521.0,
+						"translation.y": 2856.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -489,15 +492,15 @@
 					"file": "public/templates/views/gallery.html",
 					"settings":
 					{
-						"buffer_size": 2061,
+						"buffer_size": 1393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								417,
-								417
+								1386,
+								1386
 							]
 						],
 						"settings":
@@ -507,7 +510,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 336.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -517,15 +520,15 @@
 					"file": "public/css/style.css",
 					"settings":
 					{
-						"buffer_size": 6766,
+						"buffer_size": 5689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3814,
-								3814
+								5689,
+								5689
 							]
 						],
 						"settings":
@@ -533,7 +536,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4652.0,
+						"translation.y": 7980.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -550,8 +553,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								38,
+								38
 							]
 						],
 						"settings":
@@ -598,15 +601,15 @@
 					"file": "public/templates/views/apply.html",
 					"settings":
 					{
-						"buffer_size": 4553,
+						"buffer_size": 3494,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								3347,
+								3347
 							]
 						],
 						"settings":
@@ -616,7 +619,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2268.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -626,15 +629,15 @@
 					"file": "public/templates/views/vacancy.html",
 					"settings":
 					{
-						"buffer_size": 872,
+						"buffer_size": 840,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								391,
-								391
+								684,
+								684
 							]
 						],
 						"settings":
@@ -654,15 +657,15 @@
 					"file": "public/templates/views/elements/sidebar.html",
 					"settings":
 					{
-						"buffer_size": 1299,
+						"buffer_size": 1187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								94,
-								53
+								1009,
+								1009
 							]
 						],
 						"settings":
@@ -672,7 +675,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 504.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -682,15 +685,15 @@
 					"file": "public/templates/views/elements/slideshow.html",
 					"settings":
 					{
-						"buffer_size": 673,
+						"buffer_size": 611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
+								254,
+								254
 							]
 						],
 						"settings":
@@ -709,15 +712,15 @@
 					"file": "public/templates/views/elements/testimonial.html",
 					"settings":
 					{
-						"buffer_size": 836,
+						"buffer_size": 679,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								418,
+								418
 							]
 						],
 						"settings":
@@ -795,6 +798,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 125.0,
+	"side_bar_width": 137.0,
 	"status_bar_visible": true
 }

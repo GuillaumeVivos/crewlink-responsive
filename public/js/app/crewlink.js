@@ -1,4 +1,4 @@
-
+//* test uhb fkljbsd fkjsbd fjksbdf jksbdf jshbdfjsbf jsbf jsbd fjs djh*//
 
 // ****************** SAVE DIRECTIVES 02 ********************** //
 define(
@@ -92,7 +92,6 @@ define(
 						// Click on BTN to change current picture  
 						scope.currentIndex = newIndex - 1;
 					};
-
 					scope.$watch('currentIndex', function() {						
 						scope.images.forEach(function(image) {
 							image.visible = false; // make every image invisible
